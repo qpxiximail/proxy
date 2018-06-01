@@ -26,7 +26,7 @@
 -define(CONNECT_TIMEOUT, 5000).
 -define(POOL_SIZE, 10).
 
--define(PASSWORD(), os:getenv("PROXY_PASSWORD", "abcd1234")).
+-define(PASSWORD(), os:getenv("PROXY_PASSWORD", "abcd12344")).
 -define(PASSWORD_LENGTH, length(?PASSWORD())).
 
 -ifdef(debug).
