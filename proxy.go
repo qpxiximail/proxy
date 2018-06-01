@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	PASSWORD  = []byte("abcd1234")
+	PASSWORD  = []byte("abcd12344")
 	MASK      = byte(0x66)
 	POOL_SIZE = 10
 	VERSION   = "0.1.1"
@@ -393,7 +393,7 @@ func main() {
 	frontAddr := "127.0.0.1:8780"
 	backAddr := "127.0.0.1:8781"
 
-	passwordPtr := flag.String("password", "abcd1234", "密码")
+	passwordPtr := flag.String("password", "abcd12344", "密码")
 	poolSizePtr := flag.Int("poolsize", 10, "连接池大小")
 	verbosePtr := flag.Bool("verbose", false, "显示调试信息")
 	flag.Parse()
